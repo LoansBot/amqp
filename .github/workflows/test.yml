@@ -10,7 +10,7 @@ jobs:
         python_version: [3.7, 3.8]
     services:
       rabbitmq:
-        image: rabbitmq
+        image: rabbitmq:3.13
         ports:
           - 5672/tcp
     steps:
